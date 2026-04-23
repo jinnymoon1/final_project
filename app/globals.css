@@ -1,0 +1,12 @@
+/* Global styling only. Final-project rule allows one external CSS file for global styling. */
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7f4ef;
+  color: #1f1f1f;
+}
