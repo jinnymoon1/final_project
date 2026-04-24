@@ -6,7 +6,7 @@ import "./globals.css";
   Logic:
   - layout.tsx wraps all page.tsx files in the app router.
   - Navigation is placed here so every museum page shares the same tabs.
-  Responsible: Your name here
+  Responsible: Jinny Moon
 */
 
 export default function RootLayout({

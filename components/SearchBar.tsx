@@ -7,7 +7,7 @@ import styled from "styled-components";
   Logic:
   - Controlled by props from parent.
   - Keeps data flow one-way: parent owns state, child receives props.
-  Responsible: Your name here
+  Responsible: Sang Hyup Lee
 */
 
 const Wrapper = styled.div`

@@ -4,6 +4,16 @@ import { useEffect, useRef } from "react";
 import styled from "styled-components";
 import { MUSEUM_DATA, MuseumKey } from "@/lib/museumTypes";
 
+/*
+  MuseumMap component.
+  Logic:
+  - Renders a Google Map on the client side.
+  - useRef keeps track of the map and markers.
+  - useEffect creates the map and adds museum markers from MUSEUM_DATA.
+  - Clicking a marker shows museum info and a detail page link.
+  Responsible: Sang Hyup Lee
+*/
+
 const MapContainer = styled.div`
     width: 100%;
     height: 500px;

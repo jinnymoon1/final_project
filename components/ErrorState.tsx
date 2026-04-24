@@ -1,5 +1,10 @@
 import styled from "styled-components";
 
+/*
+    Error handling state
+    Responsible: Chanmin Woo
+*/
+
 const Box = styled.div`
   padding: 20px 0;
   color: darkred;
