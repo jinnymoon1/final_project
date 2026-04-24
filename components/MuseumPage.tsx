@@ -15,7 +15,7 @@ import { ArtworkItem, MuseumKey } from "@/lib/museumTypes";
   - useEffect loads default artworks when a museum page opens.
   - Search button triggers fetch to our own Next.js API route.
   - API route returns normalized data, so UI stays identical for every museum tab.
-  Responsible: Your name here
+  Responsible: Jinny Moon
 */
 
 const Wrapper = styled.main`

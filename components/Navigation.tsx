@@ -5,6 +5,16 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { MUSEUM_DATA, MuseumKey } from "@/lib/museumTypes";
 
+/*
+  Navigation component.
+  Logic:
+  - Renders a sticky navigation bar.
+  - usePathname checks the current page route.
+  - Museum links are generated from MUSEUM_DATA.
+  - Active page link is styled differently.
+  Responsible: Chanmin Woo
+*/
+
 const Nav = styled.nav`
     background: #fff;
     border-bottom: 2px solid #ddd;

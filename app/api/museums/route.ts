@@ -7,7 +7,7 @@ import { ArtworkItem, MuseumKey } from "@/lib/museumTypes";
   - Keeps private keys on the server.
   - Converts different museum API responses into one shared ArtworkItem shape.
   - Ensures every artwork always has a usable id string.
-  Responsible: Your name here
+  Responsible: Sang Hyup Lee
 */
 
 function safeString(value: unknown): string {

@@ -7,7 +7,7 @@ import { ArtworkItem } from "@/lib/museumTypes";
   Logic:
   - Maps over normalized artwork data.
   - Uses a safe fallback key if item.id is missing.
-  Responsible: Your name here
+  Responsible: Chanmin Woo
 */
 
 const Grid = styled.div`

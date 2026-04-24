@@ -6,7 +6,7 @@ import { ArtworkItem } from "@/lib/museumTypes";
   Logic:
   - Displays one normalized artwork object.
   - Uses safe fallback text when image is missing.
-  Responsible: Your name here
+  Responsible: Chanmin Woo
 */
 
 const Card = styled.div`

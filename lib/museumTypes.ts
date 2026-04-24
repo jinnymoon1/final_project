@@ -1,3 +1,12 @@
+/*
+  museumTypes file.
+  Logic:
+  - Defines TypeScript types for museum keys, artwork items, and museum info.
+  - Stores shared museum location and contact data in MUSEUM_DATA.
+  - Allows other components to use consistent museum data and type safety.
+  Responsible: Jinny Moon
+*/
+
 export type MuseumKey =
     | "met"
     | "smithsonian"

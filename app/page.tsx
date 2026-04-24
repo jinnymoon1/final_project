@@ -3,6 +3,15 @@
 import styled from "styled-components";
 import MuseumMap from "@/components/MuseumMap";
 
+/*
+  HomePage component.
+  Logic:
+  - Renders the main home page layout.
+  - Displays the page title and short description.
+  - Shows the MuseumMap component inside a styled map section.
+  Responsible: Jinny Moon
+*/
+
 const Wrapper = styled.main`
     padding: 24px;
     max-width: 100%;
