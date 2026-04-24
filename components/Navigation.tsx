@@ -79,7 +79,7 @@ export default function Navigation() {
         <Nav>
             <NavContainer>
                 <HomeLink href="/" style={pathname === "/" ? activeLinkStyle : undefined}>
-                    🏛️ Home
+                    Home
                 </HomeLink>
                 {museums.map(([key, museum]) => (
                     <NavLink
